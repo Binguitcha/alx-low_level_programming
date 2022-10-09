@@ -7,6 +7,12 @@
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar,2015-10-19\n", 59);
-	return (1);
+	int i;
+	char tab[60] = "and that piece of art is useful - Dora Korpar, 2015-10-19";
+
+	for (i = 0 ; i < 60 ; i++)
+	{
+		putchar(tab[i]);
+	}
+return (1);
 }
