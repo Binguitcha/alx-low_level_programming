@@ -14,5 +14,6 @@ int main(void)
 	{
 		putchar(tab[i]);
 	}
+	putchar('\n');
 return (1);
 }
