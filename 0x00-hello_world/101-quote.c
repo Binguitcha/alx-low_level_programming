@@ -8,9 +8,9 @@
 int main(void)
 {
 	int i;
-	char tab[59] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char tab[58] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
-	for (i = 0 ; i < 59 ; i++)
+	for (i = 0 ; i < 58 ; i++)
 	{
 		putchar(tab[i]);
 	}
